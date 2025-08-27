@@ -1,0 +1,83 @@
+Eldoria Quest: The Shattered Moon of Valescourt
+
+1. Adventure Overview
+
+An unstable celestial phenomenon—the "Shattered Moon"—has appeared over Valescourt. Rumors say that when the moonglints align, ancient portals to the Lost Court of Arcingale briefly open. The player, guided by the LLM Game Master (GM) script, must discover the portals, unlock hidden secrets, and decide the fate of Eldoria.
+
+Starting Point: The city of Valecross during the Grand Midsummer Festival (Day 1).
+
+Main Goal: Reassemble the three Crystalline Moondials to stabilize the portals before the festival’s finale (Day 3 at dusk).
+
+Parallel Threads: Forest, Isles, Desert. The player can pursue any order.
+
+2. Key NPCs & Hook
+
+King Alaric Artingale (ill, 45) meets the party in the royal audience hall. He beseeches the player: “Our moon fractures herald doom—if the portals fall to darkness, Eldoria is lost.”
+
+Queen Aelinthra Moonshade, via fey emissaries from Ironwood, offers knowledge of the first dial’s resting place—but only if the party solves an elven riddle.
+
+Captain Selina Marrash of the Pirate Confederacy hints at sunken ruins under the Shattered Isles, but demands a favor: retrieve her stolen flag from rival pirates.
+
+3. Parallel Story Threads
+
+A. Ironwood Forest (Dial of Roots)
+
+Objective: Recover the Dial of Roots hidden in an ancient druid circle.
+
+Challenge: Navigate enchanted glades: every fork in the path bears a riddle-inscribed standing stone.
+
+Riddle 1: "I dance without feet, weep without eyes. What am I?" (Answer: Cloud.)
+
+Enchantment: A correct answer lifts the mists. A wrong answer summons Fey Hounds for a chase.
+
+Mini-Boss: Corrupted Treant guarding the druid altar—use knowledge of nature (Wissen probe) or brute force (Handeln probe) to calm or defeat it.
+
+B. Shattered Isles (Dial of Tides)
+
+Objective: Dive into the sunken temple to retrieve the Dial of Tides.
+
+Challenge: Solve the Chambers of Currents—rotating water glyphs on the walls.
+
+Puzzle: Arrange three glyphs so that the tide symbol aligns with the crescent—requires perception (Wissen) and dexterity (Handeln).
+
+Optional Side-Quest: Free a captured sea spirit by decoding its binding incantation (Soziales probe to decode its whispers).
+
+Reward: The sea spirit grants a boon—temporary immunity to drowning or water hazards.
+
+C. Ember Wastes (Dial of Flames)
+
+Objective: Enter the buried Fire Temple to find the Dial of Flames.
+
+Challenge: Cross the Scorching Sands without succumbing to heat.
+
+Environmental Hazard: Every hour the player must pass a Wissen (survival) check or suffer exhaustion damage.
+
+Riddle at Gate: "Alive without breath, as cold as death; never thirsty, ever drinking—what am I?" (Answer: Fish.)
+
+Mechanic: Player must answer before door’s fire jets ignite.
+
+Guardians: Sand Wyrm brood patrols beneath—stealth (Handeln) or distraction (Soziales) to bypass.
+
+4. Interwoven Decision Points
+
+Alliances: Help the Sylvan Court or aid Queen Aelinthra—unlock a hidden shortcut in the forest path.
+
+Morality: Free the sea spirit or keep its power—it may later aid in Ironwood during the Treant encounter.
+
+Timing: Attempt two threads in parallel? Festival clock is ticking—initiative can be regained via Geistesblitzpunkte limits: each major challenge depletes one per Begabung.
+
+5. Finale: The Lunar Convergence (Day 3, Dusk)
+
+Once all three dials are assembled at the Moonglints Obelisk, the party must face the Shadow Wraith—a manifestation of the Shadowed Hand’s power.
+
+Combat Rounds: Initiative and surprise rules apply. Only critical success (10% of Handeln) can shatter the wraith’s armor.
+
+Climactic Riddle: The wraith taunts: "Born of darkness, I grant sight; yet consume all who seek my light. What am I?" (Answer: Shadow.) Answering it weakens its form.
+
+6. Narrative Prompts for the LLM GM
+
+Scene Hooks: Describe festival banners fluttering, fey lanterns drifting in Ironwood, creaks of ancient temple stones.
+
+NPC Dialogues: Provide King Alaric’s gravitas, Aelinthra’s aloof warmth, pirate jests from Selina.
+
+Challenge Resolution: Invoke the Regelwerk’s Begabungen, Fähigkeiten and Geistesblitzpunkte rules. Prompt for player rolls and describe successes, failures, and criticals.
