@@ -254,8 +254,9 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 **Ready to begin your adventure?** Start the application and let the magic of AI-powered storytelling transport you to the world of Eldoria! 🧙‍♂️✨
 
 ## 📸 Screenshots
-![screenshot1.png](attachment:screenshot1.png)
-![screenshot2.png](attachment:screenshot2.png)
-![screenshot3.png](attachment:screenshot3.png)
-![screenshot4.png](attachment:screenshot4.png)
-![screenshot5.png](attachment:screenshot5.png)
+![MMP global architecture](/renderings/images/ImplementationScheme.png)
+![screenshot1.png](/screenshots/screenshot1.png)
+![screenshot2.png](/screenshots/screenshot2.png)
+![screenshot3.png](/screenshots/screenshot3.png)
+![screenshot4.png](/screenshots/screenshot4.png)
+![screenshot5.png](/screenshots/screenshot5.png)
