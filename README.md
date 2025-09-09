@@ -1,42 +1,3 @@
-## LiteLLM (optional router)
-
-Start a LiteLLM server to unify local Ollama models and OpenAI:
-
-1) Create `litellm.yaml`:
-
-```
-model_list:
-  - model_name: local-mistral
-    litellm_params:
-      model: ollama/mistral:7b-instruct
-      api_base: http://localhost:11434
-  - model_name: local-llama3
-    litellm_params:
-      model: ollama/llama3:8b
-      api_base: http://localhost:11434
-  - model_name: openai-gpt4o-mini
-    litellm_params:
-      model: openai/gpt-4o-mini
-
-litellm_settings:
-  callbacks: ["langfuse"]
-```
-
-2) Run LiteLLM:
-
-```
-uv run litellm --config litellm.yaml --host 0.0.0.0 --port 4000
-```
-
-3) In a separate shell, export for the app:
-
-```
-export LITELLM_BASE_URL=http://localhost:4000
-export LITELLM_API_KEY=litellm-proxy-key
-```
-
-4) Use router models from the sidebar (`router/local-mistral`, `router/local-llama3`, `router/openai-gpt4o-mini`).
-
 # 🧙‍♂️ Eldoria Quest: The Shattered Moon of Valescourt
 
 An immersive AI-powered tabletop RPG adventure that combines the magic of storytelling with cutting-edge AI technology. Experience a dynamic, interactive fantasy world where every decision shapes your journey.
@@ -88,6 +49,45 @@ An immersive AI-powered tabletop RPG adventure that combines the magic of storyt
   - **Apple**: M1/M2 Mac with Metal support
 
 ### Installation
+
+## LiteLLM (optional router)
+
+Start a LiteLLM server to unify local Ollama models and OpenAI:
+
+1) Create `litellm.yaml`:
+
+```
+model_list:
+  - model_name: local-mistral
+    litellm_params:
+      model: ollama/mistral:7b-instruct
+      api_base: http://localhost:11434
+  - model_name: local-llama3
+    litellm_params:
+      model: ollama/llama3:8b
+      api_base: http://localhost:11434
+  - model_name: openai-gpt4o-mini
+    litellm_params:
+      model: openai/gpt-4o-mini
+
+litellm_settings:
+  callbacks: ["langfuse"]
+```
+
+2) Run LiteLLM:
+
+```
+uv run litellm --config litellm.yaml --host 0.0.0.0 --port 4000
+```
+
+3) In a separate shell, export for the app:
+
+```
+export LITELLM_BASE_URL=http://localhost:4000
+export LITELLM_API_KEY=litellm-proxy-key
+```
+
+4) Use router models from the sidebar (`router/local-mistral`, `router/local-llama3`, `router/openai-gpt4o-mini`).
 
 1. **Clone the repository**
    ```bash

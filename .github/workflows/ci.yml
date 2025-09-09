@@ -1,0 +1,41 @@
+name: CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install uv
+        run: pip install uv
+
+      - name: Sync deps (no dev extras)
+        run: uv sync
+
+      - name: Basic import check
+        run: |
+          . .venv/bin/activate
+          python - << 'PY'
+          import sys
+          import streamlit, langchain, llama_index
+          print('OK: imports loaded')
+          PY
+
+      - name: Static check (ruff)
+        run: |
+          . .venv/bin/activate
+          pip install ruff
+          ruff --version
+          ruff check . || true
