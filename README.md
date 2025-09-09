@@ -50,7 +50,31 @@ An immersive AI-powered tabletop RPG adventure that combines the magic of storyt
 
 ### Installation
 
-## LiteLLM (optional router)
+1. **Clone the repository**
+   ```bash
+   git clone <repository-url>
+   cd llm-penandpaper
+   ```
+
+2. **Install dependencies using uv**
+   ```bash
+   uv sync
+   ```
+
+3. **Start Ollama and download the model**
+   ```bash
+   ollama serve
+   ollama pull mistral:7b-instruct
+   ```
+
+4. **Launch the application**
+   ```bash
+   uv run streamlit run penandpaper_streamlit.py
+   ```
+
+5. **Open your browser** and navigate to `http://localhost:8501`
+
+#### LiteLLM (optional router)
 
 Start a LiteLLM server to unify local Ollama models and OpenAI:
 
@@ -88,30 +112,6 @@ export LITELLM_API_KEY=litellm-proxy-key
 ```
 
 4) Use router models from the sidebar (`router/local-mistral`, `router/local-llama3`, `router/openai-gpt4o-mini`).
-
-1. **Clone the repository**
-   ```bash
-   git clone <repository-url>
-   cd llm-penandpaper
-   ```
-
-2. **Install dependencies using uv**
-   ```bash
-   uv sync
-   ```
-
-3. **Start Ollama and download the model**
-   ```bash
-   ollama serve
-   ollama pull mistral:7b-instruct
-   ```
-
-4. **Launch the application**
-   ```bash
-   uv run streamlit run penandpaper_streamlit.py
-   ```
-
-5. **Open your browser** and navigate to `http://localhost:8501`
 
 ## 🎯 How to Play
 
