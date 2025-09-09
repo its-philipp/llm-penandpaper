@@ -6,11 +6,14 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
 
 WORKDIR /app
 
-COPY pyproject.toml uv.lock ./
+# Copy only files needed to resolve deps first
+COPY pyproject.toml README.md ./
 
-RUN pip install --no-cache-dir uv \
-    && uv sync
+# Install project deps using standard pip to avoid uv issues in slim images
+RUN pip install --no-cache-dir --upgrade pip \
+ && pip install --no-cache-dir .
 
+# Now copy the rest of the app
 COPY . .
 
 ENV PORT=8501 \
